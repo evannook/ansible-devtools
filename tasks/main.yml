@@ -5,6 +5,7 @@
     - vim
     - build-essential
     - mosh
+    - tmux
     - python3-dev
     - python-dev
     - virtualenv
