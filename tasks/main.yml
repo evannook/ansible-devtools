@@ -1,22 +1,25 @@
 ---
-- name: install develop tools
-  apt: "pkg={{ item }} state=latest"
-  with_items:
-    - vim
-    - build-essential
-    - mosh
-    - tmux
-    - python3-dev
-    - python-dev
-    - virtualenv
-    - libncurses5-dev
-    - libncursesw5-dev
-    - libreadline-dev
-    - libdb-dev
-    - libgdbm-dev
-    - libsqlite3-dev
-    - libssl-dev
-    - libbz2-dev
-    - libexpat-dev
-    - liblzma-dev
-    - zlib1g-dev
+- block:
+  - name: install develop tools
+    apt: "pkg={{ item }} state=latest"
+    with_items:
+      - vim
+      - build-essential
+      - mosh
+      - tmux
+      - python3-dev
+      - python-dev
+      - virtualenv
+      - libncurses5-dev
+      - libncursesw5-dev
+      - libreadline-dev
+      - libdb-dev
+      - libgdbm-dev
+      - libsqlite3-dev
+      - libssl-dev
+      - libbz2-dev
+      - libexpat-dev
+      - liblzma-dev
+      - zlib1g-dev
+  tags:
+    - devtools
