@@ -1,6 +1,6 @@
 galaxy_info:
   author: William Wu
-  description: Install develop tools
+  description: Install python3 develop related tools
   company: PyLabs
   license: MIT
   min_ansible_version: 2.0
@@ -10,6 +10,7 @@ galaxy_info:
     - stretch
   galaxy_tags:
     - debian
+    - python3
     - develop
 dependencies:
   - pylabs.sysbase

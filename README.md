@@ -1,7 +1,7 @@
-certbot
-=======
+python3-dev
+===========
 
-Install develop tools
+Install python3-dev related tools
 
 Dependencies
 ------------
@@ -13,7 +13,7 @@ Example Playbook
 
 ```yaml
   roles:
-    - role: pylabs.devtools
+    - role: pylabs.python3-dev
 ```
 
 License
