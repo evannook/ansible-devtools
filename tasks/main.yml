@@ -7,9 +7,9 @@
       - build-essential
       - mosh
       - tmux
+      - fish
       - python3-dev
-      - python-dev
-      - virtualenv
+      - python3-venv
       - libncurses5-dev
       - libncursesw5-dev
       - libreadline-dev

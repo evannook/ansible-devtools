@@ -6,14 +6,14 @@ Install develop tools
 Dependencies
 ------------
 
-- evannook.sysbase
+- pylabs.sysbase
 
 Example Playbook
 ----------------
 
 ```yaml
   roles:
-    - role: evannook.devtools
+    - role: pylabs.devtools
 ```
 
 License
@@ -24,4 +24,4 @@ MIT
 Author Information
 ------------------
 
-Evan Nook
+William Wu
