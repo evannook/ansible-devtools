@@ -13,7 +13,7 @@ Example Playbook
 
 ```yaml
   roles:
-    - role: pylabs.python3-dev
+    - role: pylabs.python3_dev
 ```
 
 License
