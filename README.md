@@ -1,7 +1,7 @@
-python3-dev
+python3_dev
 ===========
 
-Install python3-dev related tools
+Install python3 dev related tools
 
 Dependencies
 ------------

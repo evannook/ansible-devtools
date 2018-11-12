@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: python3-dev
+  role_name: python3_dev
   author: William Wu
   description: Install python3 develop related tools
   company: PyLabs
