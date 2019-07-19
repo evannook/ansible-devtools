@@ -18,5 +18,8 @@
       - libexpat-dev
       - liblzma-dev
       - zlib1g-dev
+      - uuid-dev
+      - libffi-dev
+      - tk-dev
   tags:
     - python3_dev

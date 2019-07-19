@@ -8,10 +8,11 @@ galaxy_info:
   platforms:
   - name: Debian
     versions:
-    - stretch
+    - Buster
+    - 10
   galaxy_tags:
     - debian
     - python3
     - develop
 dependencies:
-  - pylabs.sysbase
+  - pylabs.python3
