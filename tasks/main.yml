@@ -1,7 +1,7 @@
 ---
 - block:
   - name: install python3 develop related tools
-    apt: "pkg={{ packages }} state=latest"
+    ansible.builtin.apt: "pkg={{ packages }} state=latest"
     vars:
       packages:
       - libncurses5-dev
